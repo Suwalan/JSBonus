@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="getFirst"></p>
+<p id="getLast"></p>
+<p id="getThird"></p>
+
+<script>
+
+    let text = window.prompt("input data");
+    var word = window.prompt("input a char to search");
+    document.getElementById("getFirst").innerHTML = text.indexOf(word);
+    document.getElementById("getLast").innerHTML = text.lastIndexOf(word);
+    document.getElementById("getThird").innerHTML = text.indexOf(word,3);
+
+</script>
+
+</body>
+</html>
